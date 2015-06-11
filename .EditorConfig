@@ -1,0 +1,7 @@
+# Indent Style, End of Line and Trim Trailing White Space
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = false
+trim_trailing_whitespace = true
