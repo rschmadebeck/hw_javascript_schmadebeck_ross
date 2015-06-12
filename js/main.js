@@ -1,38 +1,41 @@
 // Presidents Object
-var presidents = {
-	barackObama: {
+var presidents = [
+	var barackObama = {
 		firstName: 'Barack',
 		lastName: 'Obama',
 		termLength: '2',
 		party: 'Democratic',
-		yearsOfPresidency: '7',	
+		yearsOfPresidency: '7'	
 	},
-	georgeBushJr: {
+	var georgeBushJr = {
 		firstName: 'George',
 		lastName: 'Bush, Sr.',
 		termLength: '2',
 		party: 'Republican',
-		yearsOfPresidency: '8',
+		yearsOfPresidency: '8'
 	},
-	billClinton: {
+	var billClinton = {
 		firstName: 'William',
 		lastName: 'Clinton',
 		termLength: '2',
 		party: 'Democratic',
-		yearsOfPresidency: "8",
+		yearsOfPresidency: "8"
 	},
-	georgeBushSr: {
+	var georgeBushSr = {
 		firstName: 'George',
 		lastName: 'Bush',
 		termLength: '1',
 		party: 'Republican',
-		yearsOfPresidency: '4',
+		yearsOfPresidency: '4'
 	},
-	ronaldReagan: {
+	var ronaldReagan = {
 		firstName: 'Ronald',
 		lastName: 'Reagan',
 		termLength: '2',
 		party: 'Republican',
-		yearsOfPresidency: '8',
-	};
+		yearsOfPresidency: '8'
+	}
+]
+function president() {
+	console.log(billClinton.firstName + billClinton.lastName);
 }
