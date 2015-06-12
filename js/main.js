@@ -1,41 +1,23 @@
-// Presidents Object
-var presidents = {
-	barackObama: {
-		firstName: 'Barack',
-		lastName: 'Obama',
-		termLength: 2,
-		party: 'Democratic',
-		yearsOfPresidency: 7	
-	},
-	georgeBushJr: {
-		firstName: 'George',
-		lastName: 'Bush, Sr.',
-		termLength: 2,
-		party: 'Republican',
-		yearsOfPresidency: 8
-	},
-	billClinton: {
-		firstName: 'William',
-		lastName: 'Clinton',
-		termLength: 2,
-		party: 'Democratic',
-		yearsOfPresidency: 8
-	},
-	georgeBushSr: {
-		firstName: 'George',
-		lastName: 'Bush',
-		termLength: 1,
-		party: 'Republican',
-		yearsOfPresidency: 4
-	},
-	ronaldReagan: {
-		firstName: 'Ronald',
-		lastName: 'Reagan',
-		termLength: 2,
-		party: 'Republican',
-		yearsOfPresidency: 8
-	}
+// Function Howdy
+var fullName = ['Ross Schmadebeck']
+
+function howdy() {
+	console.log([fullName] + ' says, "Hello"')
 }
-function president() {
-	console.log(billClinton[0] + billClinton[1]);
+
+//Function numba
+
+var numba = function string() {
+	if (string.length < 7) {
+		console.log('What a short little word');
+	} else { if (string.length > 7) {
+			console.log("I'm sorry, but that's too many to count");
+		} else {'7, what a perfect choice!'};
+	}
+};
+
+//Function inception
+
+function inception() {
+
 }
