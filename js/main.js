@@ -1,41 +1,41 @@
 // Presidents Object
-var presidents = {
-	barackObama: {
+var presidents = [
+	{
 		firstName: 'Barack',
 		lastName: 'Obama',
 		termLength: 2,
 		party: 'Democratic',
 		yearsOfPresidency: 7	
 	},
-	georgeBushJr: {
+	{
 		firstName: 'George',
-		lastName: 'Bush, Sr.',
+		lastName: 'Bush, Jr.',
 		termLength: 2,
 		party: 'Republican',
 		yearsOfPresidency: 8
 	},
-	billClinton: {
-		firstName: 'William',
+	{
+		firstName: 'Bill',
 		lastName: 'Clinton',
 		termLength: 2,
 		party: 'Democratic',
 		yearsOfPresidency: 8
 	},
-	georgeBushSr: {
+	{
 		firstName: 'George',
 		lastName: 'Bush',
 		termLength: 1,
 		party: 'Republican',
 		yearsOfPresidency: 4
 	},
-	ronaldReagan: {
+	{
 		firstName: 'Ronald',
 		lastName: 'Reagan',
 		termLength: 2,
 		party: 'Republican',
 		yearsOfPresidency: 8
 	}
-}
-function president() {
-	console.log(billClinton[0] + billClinton[1]);
+];
+function thirdPresident() {
+	console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
 }
