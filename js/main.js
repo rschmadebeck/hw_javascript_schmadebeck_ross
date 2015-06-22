@@ -5,6 +5,8 @@ function howdy() {
 	console.log(fullName + ' says, "Hello"');
 }
 
+howdy();
+
 //Function numba
 var numba = function (string) {
 	if (string.length < 7) {
