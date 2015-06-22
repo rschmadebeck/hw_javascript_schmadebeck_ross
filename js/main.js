@@ -6,11 +6,11 @@ function howdy() {
 }
 
 //Function numba
-
 var numba = function (string) {
 	if (string.length < 7) {
 		console.log('What a short little word');
-	} else { if (string.length > 7) {
+	} else {
+		if (string.length > 7) {
 			console.log("I'm sorry, but that's too many to count");
 		} else {
 			console.log('7, what a perfect choice!');
@@ -19,13 +19,10 @@ var numba = function (string) {
 };
 
 numba('seven');
- 
 numba('seventy');
- 
 numba('university');
 
 //Function inception
-
 function inception(callback, value) {
 	callback(value);
 }
