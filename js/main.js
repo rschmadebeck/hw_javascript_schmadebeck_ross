@@ -2,7 +2,7 @@
 var fullName = 'Ross Schmadebeck';
 
 function howdy() {
-	console.log(fullName + ' says, "Hello"')
+	console.log(fullName + ' says, "Hello"');
 }
 
 //Function numba
@@ -28,7 +28,7 @@ function inception(callback, value) {
 }
 
 function movieTitle(title) {
-	console.log(title + ' is a fantastic movie.')
+	console.log(title + ' is a fantastic movie.');
 }
 
 inception(movieTitle, 'Star Wars');
