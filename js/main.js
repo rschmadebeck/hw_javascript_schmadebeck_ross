@@ -5,7 +5,7 @@ var presidents = [
 		lastName: 'Obama',
 		termLength: 2,
 		party: 'Democratic',
-		yearsOfPresidency: 7	
+		yearsOfPresidency: 7
 	},
 	{
 		firstName: 'George',
@@ -36,6 +36,5 @@ var presidents = [
 		yearsOfPresidency: 8
 	}
 ];
-function thirdPresident() {
-	console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
-}
+
+console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
